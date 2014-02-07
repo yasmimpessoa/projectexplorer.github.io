@@ -1,6 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+
 * {
     margin:0;
     padding:0;
+}
+
+body {
+    font: 16px/24px 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+
+p {
+    margin-bottom: 24px;
 }
 
 img {
@@ -13,18 +39,21 @@ header {
 
 nav a {
     border-bottom: 3px solid #ffffff;
+    color: #000;
     display: inline-block;
+    font: 18px/24px 'Oswald', sans-serif;
     padding: 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    border-bottom: 3px solid #5cb0ff;
+    border-bottom: 4px solid #5cb0ff;
 }
 
 footer {
     background-color: #5cb0ff;
     clear: both;
+    color: #ffffff;
 }
 
 footer ul {
@@ -37,24 +66,93 @@ footer ul {
     
 }
 
+.full, .third, .half {
+    margin-bottom: 32px;
+}
+
 .third {
     float: left;
-    width: 33%;
+    padding-right: 2%; 
+    width: 32%;
 }
 
 .half {
     float: left;
-    width: 50%;
+    padding-right: 2%;
+    width: 49%;
+}
+
+.last { /* :last-child isnt' supported in IE8 */
+    padding-right: 0;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+/* BEGIN modules */
+
+.dateline {
+    font-weight: 700;
 }
 
 .banner {
+    font-family: 'Oswald', sans-serif;
     text-align: center;
 }
 
+.banner img {
+    margin-bottom: 16px;
+}
+
+.banner p {
+    padding: 0 15%;
+}
+
+.promo img {
+    margin-bottom: -6px;
+}
+
+.promo h3 {
+    background-color: #5cb0ff;
+    padding: 8px 0;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.promo.level-middle h3 {
+    background-color: lime;
+}
+
+.promo.level-high h3 {
+    background-color: orange;
+}
+
+.promo h3 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.featured img {
+    margin-top: 5px;
+}
+
+/* END modules */
+
 @media (max-width: 600px) {
 
+    .wrapper {
+        width: 95%;
+    }
+    
     .half, .third {
         width: 100%;
+    }
+    
+    .banner p {
+        padding: 0;
+        text-align: left;   
     }
     
 }
