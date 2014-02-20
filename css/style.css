@@ -50,6 +50,54 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
+article h1 {
+    margin-bottom: 8px;
+}
+
+article h1+img {
+    margin-bottom: 24px;
+}
+
+article h2 {
+    margin-bottom: 12px;
+}
+
+aside h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 32px;   
+}
+
+aside h3:first-child {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+aside ul {
+    font-size: 12px;
+    list-style-type: none;
+}
+
+aside a {
+    color: #5cb0ff;
+    text-decoration: none;
+}
+
+aside a:after {
+   content: " >";
+}
+
+figure {
+    margin-bottom: -8px;
+}
+
+figcaption {
+    font-size: 12px;
+    margin-bottom: 24px;
+    margin-top: -6px;
+}
+
+
 footer {
     background-color: #5cb0ff;
     clear: both;
@@ -74,6 +122,12 @@ footer ul {
     float: left;
     padding-right: 2%; 
     width: 32%;
+}
+
+.twothird {
+    float: left;
+    padding-right: 8%; 
+    width: 58%;    
 }
 
 .half {
@@ -146,7 +200,7 @@ footer ul {
         width: 95%;
     }
     
-    .half, .third {
+    .half, .third, .twothird {
         width: 100%;
     }
     
