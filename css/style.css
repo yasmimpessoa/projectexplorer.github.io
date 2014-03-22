@@ -102,11 +102,21 @@ footer {
     background-color: #5cb0ff;
     clear: both;
     color: #ffffff;
+    
 }
 
 footer ul {
     list-style-type: none;
 }
+footer li {
+    color: #fff;
+    font-weight:bold;
+    font-size: 14px;
+    list-style-type:square;
+    
+    
+}
+
 
 .wrapper {
     margin: 0 auto;
