@@ -95,7 +95,7 @@ figure {
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 24px;
     margin-top: -6px;
 }
@@ -114,8 +114,8 @@ footer ul {
 footer li {
     
     color: #fff;
-    font-weight:bold;
-    font-size: 14px;
+    font-weight: normal;
+    font-size: 12px;
     list-style-type:square;
     
     
@@ -215,6 +215,7 @@ footer li {
     }
     
     .half, .third, .twothird {
+        
         width: 100%;
     }
     
