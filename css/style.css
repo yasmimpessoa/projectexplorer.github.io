@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+    font-size: 30px;
     line-height: 48px;
 }
 
@@ -26,6 +27,7 @@ h2 {
 
 
 p {
+    font-size: 18px;
     margin-bottom: 24px;
 }
 
@@ -63,12 +65,13 @@ article h2 {
 }
 
 aside h3 {
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 4px;
     margin-top: 32px;   
 }
 
 aside h3:first-child {
+    font-size: 12px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -109,6 +112,7 @@ footer ul {
     list-style-type: none;
 }
 footer li {
+    
     color: #fff;
     font-weight:bold;
     font-size: 14px;
